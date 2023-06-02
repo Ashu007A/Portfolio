@@ -1,0 +1,106 @@
+.wethCont{
+    
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.search{
+   
+    width: 40vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px ;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    background-color: white;
+}
+.output2{
+   
+    width: 40vw;
+    height: 60vh;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    background-color: white;
+}
+.search input{
+    padding-right: 200px;
+    position: relative;
+    height: 100%;
+    width: 80%;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    outline: none;
+}
+.search ion-icon {
+    font-size:30px;
+    font-weight:900; 
+   
+}
+.search ion-icon:hover {
+    font-weight:900; 
+    cursor: pointer;
+    color: #8deb5e;
+}
+.sec1{
+    position: relative;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    align-items: center;
+}
+.sec2{
+    position: relative;
+    height: 70%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icon2{
+    font-size: 35px;
+}
+.icon1{
+    font-size: 30px;
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #7d7d7c;
+}
+
+.fullbox{
+    height: 100%;
+    width: 100;
+    background-color: white;
+    border-radius: 30px;
+}
+.label{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: 900;
+}
+.label2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size:20px;
+  font-weight: 600;
+}
+.label3{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #7d7d7c;
+}

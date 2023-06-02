@@ -1,0 +1,139 @@
+.dictCont{
+    
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.search{
+   
+    width: 40vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px ;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.output{
+    padding-left: 5%;
+    padding-right: 3%;
+    padding-top: 2%;
+    width: 40vw;
+    height: 50vh;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    background-color: white;
+}
+.search input{
+    padding-right: 200px;
+    position: relative;
+    height: 100%;
+    width: 80%;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    outline: none;
+}
+#redAudio :hover{
+    color: red;
+}
+.search ion-icon {
+    font-size:30px;
+    font-weight:900; 
+   
+}
+.search ion-icon:hover {
+    font-weight:900; 
+    cursor: pointer;
+    color: #8deb5e;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.word{
+    font-size: 50px;
+}
+.type{
+    color:#9f8acf ;
+    font-style: italic;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.mean{
+    font-weight: 800;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.meanO{
+    font-size: 17px;
+    font-weight: 400;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.output ion-icon{
+    font-size:35px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.output ion-icon:hover{
+    font-size:35px;
+    padding-top: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    color: #8deb5e;
+}
+.loading{
+    position:static;
+    padding-left: 40%;
+    padding-top: 20%;
+}
+.directions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lds-facebook {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-facebook div {
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    width: 16px;
+    background: rgb(9, 22, 158);
+    animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  }
+  .lds-facebook div:nth-child(1) {
+    left: 8px;
+    animation-delay: -0.24s;
+  }
+  .lds-facebook div:nth-child(2) {
+    left: 32px;
+    animation-delay: -0.12s;
+  }
+  .lds-facebook div:nth-child(3) {
+    left: 56px;
+    animation-delay: 0;
+  }
+  @keyframes lds-facebook {
+    0% {
+      top: 8px;
+      height: 64px;
+    }
+    50%, 100% {
+      top: 24px;
+      height: 32px;
+    }
+  }
